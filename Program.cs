@@ -133,7 +133,7 @@ namespace ProxyDefCreator
                             streamWriter2.Write("    " + str7);
                             for (int index = 0; index < num1 - str7.Length; ++index)
                                 streamWriter2.Write(" ");
-                            streamWriter2.Write(" = C:\\\\Windows\\\\System32\\\\" + withoutExtension + "." + str9 + " ");
+                            streamWriter2.Write(" = \"C:\\\\Windows\\\\System32\\\\" + withoutExtension + "\"." + str9 + " ");
                             for (int index = 0; index < num1 - str7.Length; ++index)
                                 streamWriter2.Write(" ");
                             StreamWriter streamWriter4 = streamWriter2;
